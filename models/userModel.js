@@ -24,6 +24,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    answer: {
+      type: String,
+      required: true,
+    },
     role: {
       type: Number,
       default: 0,
@@ -33,3 +37,6 @@ const userSchema = new mongoose.Schema(
 );
 
 export default mongoose.model("users", userSchema);
+
+
+///asdfghjklkjhgfdsdfghjk
